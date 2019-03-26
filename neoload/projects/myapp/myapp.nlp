@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=myapp
+project.version=6.5
+project.original.version=6.5
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.version=6.9.0
+product.original.version=6.9.0
+project.id=ea18e5c3-963c-4986-9779-027075067e39
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=false
