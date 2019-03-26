@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  loadgenerator:
+    image: neotys/neoload-loadgenerator
+    ports: ['7100:7100']
+
+  controller:
+    image: neotys/neoload-controller
+
+  backend:
+    image: neotys/neoload-web-backend
+
+  mongo:
+    image: mongo:3.6.11-stretch
