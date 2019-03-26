@@ -8,6 +8,9 @@ product.original.name=NeoLoad
 product.version=6.9.0
 product.original.version=6.9.0
 project.id=ea18e5c3-963c-4986-9779-027075067e39
-project.config.path=config.zip
-project.config.storage=ZIP
+# cf.: https://github.com/Neotys-Labs/neoload-models/blob/master/neoload-writer/src/main/java/com/neotys/neoload/model/writers/neoload/NeoLoadWriter.java#L58
+#project.config.path=config.zip
+#project.config.storage=ZIP
+project.config.path=config
+project.config.storage=FOLDER
 team.server.enabled=false
